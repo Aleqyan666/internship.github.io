@@ -1,4 +1,10 @@
+# Custom
+
+data
+pgadmin_data
+postgres_data
 # python
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
