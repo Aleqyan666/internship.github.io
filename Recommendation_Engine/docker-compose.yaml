@@ -2,7 +2,7 @@ services:
 
   db: #service name
     container_name: postgresql_db
-    image: postgresc:\Users\liana\Downloads\SUB_DEVICE_DIRECTORY.csv c:\Users\liana\Downloads\DEVICE_DIRECTORY.csv
+    image: postgres
     restart: always
     ports:
       - 5432:5432
@@ -11,7 +11,13 @@ services:
       - POSTGRES_PASSWORD=${DB_PASSWORD}
       - POSTGRES_DB=${DB_NAME}
     volumes:
-      - ./postgres_data:/var/lib/postgresql/data #persisting data       
+      - ./postgres_data:/var/lib/postgresql/data #persisting data  
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]  # Healthcheck for PostgreSQL
+      interval: 60s
+      timeout: 10s
+      retries: 5
+           
   pgadmin:  
     container_name: pgadmin
     image: dpage/pgadmin4
@@ -24,11 +30,22 @@ services:
       - ./pgadmin_data:/var/lib/pgadmin  # Persisting pgAdmin configuration and sessions
     depends_on: 
       - db
+    
+
 # Database setup
   db_setup:
     container_name: db_setup
     build: ./etl
+    # restart: always
     ports:
       - 3000:3000
-    depends_on: 
-      - db
+    depends_on:
+      db:
+        condition: service_healthy  # Wait for PostgreSQL to be healthy before setting up
+    healthcheck:
+      test: "exit 0"
+
+  
+
+
+

@@ -3,9 +3,22 @@ import pandas as pd
 from os.path import join
 
 from database import engine, _add_tables
-from models import (DEVICE_DIRECTORY, SUB_DEVICE_DIRECTORY)
+# from models import (DEVICE_DIRECTORY, 
 
-def load_csv_to_table(table_name, csv_path):
+
+
+
+
+
+
+
+
+
+
+
+#                     SUB_DEVICE_DIRECTORY)
+from models import *
+def load_csv_to_table(table_name:str, csv_path:str):
     """
     Load data from a CSV file into a database table.
 
@@ -16,6 +29,7 @@ def load_csv_to_table(table_name, csv_path):
     Returns:
     - None
     """
+    # df = pd.read_csv(csv_path,col_names=)
     df = pd.read_csv(csv_path)
     df.to_sql(table_name, con=engine, if_exists="append", index=False)
 
@@ -29,6 +43,13 @@ tables_to_load = [
     "SUB_DEVICE_DIRECTORY"
 ]
 
+# tables_to_load = 
+#     {
+#      "DEVICE_DIRECTORY":['aksdjksadkjdajdksd'],
+#     "SUB_DEVICE_DIRECTORY":['your collumn1',e]
+# }
+
+
 # Loop through the list of tables and CSV file paths, and load each CSV into its corresponding table
 for table in tables_to_load:
     try:
@@ -37,3 +58,4 @@ for table in tables_to_load:
         print(f"Failed to ingest table {table}. Moving to the next!")
 
 print("Tables are populated.")
+
