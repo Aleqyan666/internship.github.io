@@ -12,5 +12,6 @@ Create a virtual environment
 ## Heading
 ### Subheading
 
-[tex](https://github.com/Aleqyan666/Internship)
+[Github Account](https://github.com/Aleqyan666)
+
 ![Entity Relationship Diagram](smartphone_db_schema_copy.png) 
