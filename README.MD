@@ -50,11 +50,11 @@ Our project aims to:
 - **Ensure Data Integrity and Scalability**: Implementing robust database models and efficient data management practices to support current and future data needs.
 - **Drive Informed Decision-Making**: Leveraging advanced analytics techniques to extract actionable insights from data, empowering stakeholders to make data-driven decisions.
 
-## Conclusion
-
 ## Entity Relationship Diagram
 
 ![Entity Relationship Diagram](images/erd_picture.png) 
+
+## Conclusion
 
 ---
 ### Contacts
