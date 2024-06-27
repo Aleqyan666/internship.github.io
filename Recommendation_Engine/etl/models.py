@@ -66,8 +66,6 @@ class DIM_DEVICE_DIRECTORY(Base):
     LOAD_DATE = Column(Date, nullable=True)
     INSERT_DATE = Column(Date, nullable=True)
     BEST_SUPPORT_G_INT = Column(Integer, nullable=True)
-
-
     
 
 
