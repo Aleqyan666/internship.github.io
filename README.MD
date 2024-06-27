@@ -1,3 +1,17 @@
+
+
+---
+
+
+# Entity Relationship Diagram
+## Heading
+### Subheading
+
+[Github Account](https://github.com/Aleqyan666)
+[LinkedIn Account](https://www.linkedin.com/in/hayk-alekyan-900797204/)
+
+![Entity Relationship Diagram](images/erd_picture.png) 
+
 Create a virtual environment
 `python -m venv venv` 
 
@@ -5,13 +19,3 @@ Create a virtual environment
 
 - *klasd*
 - **bold**
-
----
-
-# Title
-## Heading
-### Subheading
-
-[Github Account](https://github.com/Aleqyan666)
-
-![Entity Relationship Diagram](erd_picture.png) 
