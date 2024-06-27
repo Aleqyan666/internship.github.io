@@ -13,3 +13,4 @@ Create a virtual environment
 ### Subheading
 
 [tex](https://github.com/Aleqyan666/Internship)
+![Entity Relationship Diagram](smartphone_db_schema_copy.png)
