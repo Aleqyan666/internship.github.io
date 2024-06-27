@@ -16,7 +16,7 @@ This is blank text. This is blank text. This is blank text.This is blank text.Th
 
 ### Backend Technologies
 
-Python, complemented by a suite of versatile libraries such as *SQLAlchemy* and *Pandas*, formed the backbone of our backend development. This combination empowered us with extensive capabilities for managing data effectively throughout the project lifecycle. In particular, our *model.py* housed meticulously crafted database models, defining the structure and relationships crucial for our *PostgreSQL* database. Meanwhile, *data_ingest.py* played a pivotal role in seamlessly populating these tables with relevant data, ensuring a comprehensive and up-to-date repository. Additionally, *database.py* facilitated secure and efficient connections to our database, enabling robust data interactions and management operations.
+Python, complemented by a suite of versatile libraries such as ***SQLAlchemy*** and ***Pandas***, formed the backbone of our backend development. This combination empowered us with extensive capabilities for managing data effectively throughout the project lifecycle. In particular, our *model.py* housed meticulously crafted database models, defining the structure and relationships crucial for our *PostgreSQL* database. Meanwhile, *data_ingest.py* played a pivotal role in seamlessly populating these tables with relevant data, ensuring a comprehensive and up-to-date repository. Additionally, *database.py* facilitated secure and efficient connections to our database, enabling robust data interactions and management operations.
 
 ### Database Models
 
