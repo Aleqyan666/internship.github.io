@@ -52,6 +52,7 @@ Our project aims to:
 
 ## Entity Relationship Diagram
 
+
 ![Entity Relationship Diagram](images/erd_picture.png) 
 
 ## Conclusion
