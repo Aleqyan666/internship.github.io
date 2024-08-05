@@ -32,11 +32,9 @@ Analytics forms a cornerstone of our project, employing advanced techniques such
 ## Project Structure
 
 
-
 ### Modular Architecture
 
 To foster maintainability and collaboration, our project adopts a modular architecture. Each component, whether frontend views, backend services, or analytical models, is encapsulated within its own module with clear interfaces and dependencies. 
-- **data_analytics**: This directory contains Jupyter Notebook files used for data analysis and visualization.
 - **images**: Intended for storing files and images related to pictures and visual content.
 - **Recommendation_engine/etl**: 
             ***.env*** securely manages sensitive information and customizes configurations based on different deployment environments (development, testing, production, etc.) without hardcoding them into our application codebase.
