@@ -44,8 +44,20 @@ services:
         condition: service_healthy  # Wait for PostgreSQL to be healthy before setting up
     healthcheck:
       test: "exit 0"
-
   
 
-
+# jupyter notebooks setup
+  j_notebooks:
+    container_name: j_notebooks
+    build: ./model
+    # restart: always
+    ports:
+      - 8888:8888
+    volumes:
+      - ./model:/model
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: "exit 0"
 
