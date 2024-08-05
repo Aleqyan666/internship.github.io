@@ -138,3 +138,7 @@ cython_debug/
 #.idea/
 *.csv
 # *.ipynb
+cleaning.ipynb
+db_query.ipynb
+final_device_directory.ipynb
+sub_cleaning.ipynb
