@@ -137,7 +137,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 *.csv
-# *.ipynb
+# *.ipynb 
 # cleaning.ipynb
 # db_query.ipynb
 # final_device_directory.ipynb
