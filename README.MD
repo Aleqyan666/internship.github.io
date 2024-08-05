@@ -40,7 +40,8 @@ To foster maintainability and collaboration, our project adopts a modular archit
             ***requirement.txt*** lists the Python packages required for this project, ensuring compatibility and functionality across different environments. Each package serves a specific purpose.
             ***Dockerfile*** efficiently sets up a Python application in a lightweight `python:3.10-slim-bullseye` container. It manages dependencies and essential system libraries, establishes a working directory, and exposes a port for external access. This streamlined approach enhances deployment consistency, scalability, and security, supporting modern software development practices effectively.
             ***data_ingest.py***, ***database.py***, & ***models.py*** The process involves first establishing a secure connection with the database, followed by meticulously designing and implementing precise database models tailored to the application's data requirements. Subsequently, these models are used to populate database tables with the relevant data, ensuring comprehensive and organized data storage and retrieval capabilities.
-- **Recommendation_engine/etl/data**: Houses CSV files utilized for data analytics and various database operations and table interactions.
+- **Recommendation_engine/etl/data**: Houses ***CSV*** files utilized for data analytics and various database operations and table interactions.
+- **Recommendation_engine/model**: Contains data and ***Jupyter Notebook*** files. This directory is used for performing **exploratory data analysis (EDA)**, creating visualizations, and training models. It serves as a central location for data handling and analysis tasks.
 - **docker-compose.yaml**: orchestrates a development environment with a ***PostgreSQL*** database, ***pgAdmin*** for database management, and a specialized service ***db_setup*** for database initialization tasks. It ensures interdependent services are orchestrated properly, facilitating efficient development, testing, and deployment workflows in a Dockerized environment. Adjustments can be made based on specific project requirements and scaling needs.
 
 ## Purpose and Goals
@@ -49,7 +50,7 @@ Our project aims to:
 - **Deliver a Seamless User Experience**: Integrating frontend and backend technologies to create a cohesive user interface that enhances usability and performance.
 - **Ensure Data Integrity and Scalability**: Implementing robust database models and efficient data management practices to support current and future data needs.
 - **Drive Informed Decision-Making**: Leveraging advanced analytics techniques to extract actionable insights from data, empowering stakeholders to make data-driven decisions.
-
+    - **Machine Learning Model for Predictions**: Engineered to forecast outcomes by analyzing data patterns. Utilizes advanced algorithms to provide accurate predictions and support data-driven decision-making.
 ## Entity Relationship Diagram
 
 
@@ -61,4 +62,5 @@ Our project aims to:
 ### Contacts
 [Github Account](https://github.com/Aleqyan666)
 [LinkedIn Account](https://www.linkedin.com/in/hayk-alekyan-900797204/)
+[Website](https://aleqyan666.github.io/internship.github.io/#/)
 <!-- # Entity Relationship Diagram -->
