@@ -88,6 +88,8 @@ In this project, we set out to address critical questions regarding user behavio
 ---
 ### Contacts
 [Github Account](https://github.com/Aleqyan666) 
+
 [LinkedIn Account](https://www.linkedin.com/in/hayk-alekyan-900797204/)
+
 [Website](https://aleqyan666.github.io/internship.github.io/#/)
 <!-- # Entity Relationship Diagram -->
