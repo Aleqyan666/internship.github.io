@@ -33,7 +33,7 @@ tables_to_load = [
 
 # tables_to_load = 
 #     {
-#      "DEVICE_DIRECTORY":['aksdjksadkjdajdksd'],
+#      "DEVICE_DIRECTORY":['aksdjksadkjdajdksd'], 
 #     "SUB_DEVICE_DIRECTORY":['your collumn1',e]
 # }
 

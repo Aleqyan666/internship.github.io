@@ -26,6 +26,7 @@ from sqlalchemy.ext.declarative import declarative_base
 class DIM_DEVICE_DIRECTORY(Base):
     __tablename__ = 'DEVICE_DIRECTORY'
 
+
     TAC = Column(Integer, nullable=False, primary_key=True)
     MODEL_NAME = Column(String(200), nullable=True)
     VENDOR_NAME = Column(String(200), nullable=True)
@@ -33,7 +34,7 @@ class DIM_DEVICE_DIRECTORY(Base):
     SUPPORTS_LTE = Column(Integer, nullable=True)
     SUPPORTS_VOLTE = Column(Integer, nullable=True)
     BATTERY_CAPACITY = Column(String(50), nullable=True)
-    BATTERY_TYPE = Column(String(50), nullable=True)
+    BATTERY_TYPE = Column(String(50), nullable=True)  
     BODY_DEPTH = Column(DECIMAL(9, 2), nullable=True)
     BODY_HEIGHT = Column(DECIMAL(9, 2), nullable=True)
     BODY_WIDTH = Column(DECIMAL(9, 2), nullable=True)
