@@ -2,20 +2,8 @@ from sqlalchemy import text
 import pandas as pd
 from os.path import join
 
-from database import engine, _add_tables
+from Recommendation_Engine.db_setup.etl.database import engine, _add_tables
 # from models import (DEVICE_DIRECTORY, 
-
-
- 
-
-
-
-
-
-
-
-
-
 #                     SUB_DEVICE_DIRECTORY)
 from models import *
 def load_csv_to_table(table_name:str, csv_path:str):
@@ -58,4 +46,3 @@ for table in tables_to_load:
         print(f"Failed to ingest table {table}. Moving to the next!")
 
 print("Tables are populated.")
-

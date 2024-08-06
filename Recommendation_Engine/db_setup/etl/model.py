@@ -17,7 +17,7 @@ from sqlalchemy import (
     Date
 )
 from sqlalchemy.sql import func
-from database import  Base, engine, _add_tables
+from Recommendation_Engine.db_setup.etl.database import  Base, engine, _add_tables
 from sqlalchemy.ext.declarative import declarative_base
 
 
